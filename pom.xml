@@ -15,9 +15,25 @@
   <properties>
 	<!-- versions -->
 	<sonar.host.url>http://localhost:9000/</sonar.host.url>
-	<sonar.login>squ_bfc07f6b555b827a56b9f81b90349b072ca17be2</sonar.login>
+	<sonar.login>squ_f21001ccb69a218c970f26b9fbce89b0f32887f5</sonar.login>
 	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 </properties>
+	
+<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Releases Nexus Repo</name>
+	      <url>http://3.235.84.81:9091/nexus/repository/trial1-relese/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Snapshot Nexus Repo </name>
+	      <url>http://3.235.84.81:9091/nexus/repository/trial1-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
   
 </project>
